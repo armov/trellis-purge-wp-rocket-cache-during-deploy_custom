@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - trellis-purge-wp-rocket-cache-during-deploy_custom
